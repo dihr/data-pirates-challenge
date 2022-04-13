@@ -10,6 +10,7 @@ The application must collect zip code and location data, as well as assign a uni
 
 - As the target system returns the information through the Cold Fusion Markup file, the solution adopted was a scraper.
 
+![image](https://user-images.githubusercontent.com/12565936/163117711-a1504e57-7209-4f02-86f4-4388596c7bdf.png)
 
 - The scraper scans the page tags and searches for the indicated elements.
 
@@ -22,6 +23,7 @@ The application must collect zip code and location data, as well as assign a uni
 - Assuming you have the python language installed, just run the command below;
 - `python -m pytest`
 
+<img src="https://user-images.githubusercontent.com/12565936/163117840-8c69ef43-5b13-472e-81cf-d167f36ae7c8.png" width="1200" height="200">
 
 # Running project
 
@@ -29,9 +31,11 @@ The application must collect zip code and location data, as well as assign a uni
 
 - At the end of the execution, the files with the data will be saved in the root directory as shown below.
 
+<img src="https://user-images.githubusercontent.com/12565936/163118647-2a1872a0-ed09-44c1-be6a-6b4b15e034de.png" width="500" height="500">
 
 - File reasult example:
 
+<img src="https://user-images.githubusercontent.com/12565936/163118784-755e7194-3458-40f5-a81c-78ab3641e5af.png" width="500" height="300">
 
 # PS
 - Application has been developed and tested on a Windows PC
