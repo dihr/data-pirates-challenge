@@ -35,7 +35,7 @@ The application must collect zip code and location data, as well as assign a uni
 
 - File result example:
 
-<img src="https://user-images.githubusercontent.com/12565936/163118784-755e7194-3458-40f5-a81c-78ab3641e5af.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/12565936/164451921-dc081cd0-1eb5-4237-accc-d56dc8c5d741.png" width="500" height="300">
 
 # PS
 - Application has been developed and tested on a Windows PC
