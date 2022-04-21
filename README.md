@@ -1,4 +1,4 @@
-# Data-pirates-challenge-go
+# Data-pirates-challenge
 
 This project aims to solve the challenge of building a web scraper.
 
@@ -33,7 +33,7 @@ The application must collect zip code and location data, as well as assign a uni
 
 <img src="https://user-images.githubusercontent.com/12565936/163118647-2a1872a0-ed09-44c1-be6a-6b4b15e034de.png" width="500" height="500">
 
-- File reasult example:
+- File result example:
 
 <img src="https://user-images.githubusercontent.com/12565936/163118784-755e7194-3458-40f5-a81c-78ab3641e5af.png" width="500" height="300">
 

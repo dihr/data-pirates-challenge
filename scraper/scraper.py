@@ -46,7 +46,7 @@ class ZipCodeRangeScraper(DataScraper):
                 end_page_param += 50
 
             # Remove duplicates
-            unique_values = self.remove_dupicates(uf_zip_code_range_list)
+            unique_values = self.remove_duplicates(uf_zip_code_range_list)
 
             # Generate unique id
             for u_values in unique_values:
@@ -84,21 +84,19 @@ class ZipCodeRangeScraper(DataScraper):
                     zip_code_range.append([ele for ele in cols if ele and cols])
 
         # Check if there is next page
-        has_next_page = False
-        total = page_soup.find("div", {"class": "ctrlcontent"}).find('form', {"name": "Proxima"})
-        if total:
-            has_next_page = True
+        has_next_page = page_soup.find("div", {"class": "ctrlcontent"}).find('form', {"name": "Proxima"})
+
         return zip_code_range, has_next_page
 
     def _parse_zip_code_range_to_obj(self, data) -> dict:
         return {
             'location': data[0],
-            'zip_code_hate': data[1],
+            'zip_code_range': data[1],
         }
 
-    def remove_dupicates(self, mylist):
-        newlist = [mylist[0]]
-        for e in mylist:
-            if e not in newlist:
-                newlist.append(e)
-        return newlist
+    def remove_duplicates(self, data):
+        new_list = [data[0]]
+        for e in data:
+            if e not in new_list:
+                new_list.append(e)
+        return new_list
