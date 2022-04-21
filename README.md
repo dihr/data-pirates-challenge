@@ -4,7 +4,7 @@ This project aims to solve the challenge of building a web scraper.
 
 The application must collect zip code and location data, as well as assign a unique ID to each record.
 
-# challenge details
+# Challenge details
 
 - The application must fetch the data of two or more states directly from the web page.
 
