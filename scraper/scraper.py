@@ -76,7 +76,7 @@ class ZipCodeRangeScraper(DataScraper):
                 if cols:
                     cols = [ele.text.strip() for ele in cols]
                     zip_code_range.append([ele for ele in cols if ele])
-        else:
+        elif len(founded_tables) == 2:
             for row in founded_tables[1].findAll("tr"):
                 cols = row.findAll("td")
                 if cols:
